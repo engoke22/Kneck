@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local `wrangler dev` (never commit .dev.vars)
+BOT_TOKEN=123456:ABC-your-bot-token
+WEBHOOK_SECRET=change-me-to-a-long-random-string
+ADMIN_ID=123456789
+STARS_PRICE=50
+KSH_EQUIVALENT=100
+SUPPORT_CONTACT=@yourusername

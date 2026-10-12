@@ -1,0 +1,16 @@
+{
+  "name": "kcse-papers-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KCSE Papers Telegram bot on Cloudflare Workers, paid with Telegram Stars",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail",
+    "webhook": "node set-webhook.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
